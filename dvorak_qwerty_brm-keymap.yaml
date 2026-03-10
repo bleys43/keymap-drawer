@@ -254,11 +254,11 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - /
+  - \
   - '7'
   - '8'
   - '9'
-  - '-'
+  - '='
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -266,11 +266,11 @@ layers:
   - (
   - )
   - '`'
-  - '*'
+  - '/'
   - '4'
   - '5'
   - '6'
-  - +
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -284,7 +284,7 @@ layers:
   - {t: '1', h: MOD_RCTL}
   - {t: '2', h: MOD_RSFT}
   - {t: '3', h: MOD_RGUI}
-  - {t: '=', h: MOD_RALT}
+  - {t: '.', h: MOD_RALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
