@@ -172,9 +172,9 @@ layers:
   - {t: ▽, type: trans}
   - Alt+Ctl+DELETE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Ctl+TAB
+  - Ctl+TAB
   - DELETE
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -277,7 +277,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '/'
   - {type: held}
   - {t: ▽, type: trans}
   - '0'
