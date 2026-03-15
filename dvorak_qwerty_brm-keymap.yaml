@@ -210,27 +210,27 @@ layers:
   - {t: LEFT SHIFT, type: trans}
 # left thumb cluster bottom row
 # -----------------------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BSPC, type: trans}
+  - {t: ESCAPE, type: trans}
+  - {t: LEFT GUI, type: trans}
 # right thumb cluster bottom row
 # ------------------------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: RIGHT GUI, type: trans}
+  - {t: ENTER, type: trans}
+  - {t: SPACE, type: trans}
   2-nav:
 # left num row
 # ------------
-  - {t: ▽, type: trans}
+  - {t: '`', type: trans}
   - F1
   - F2
   - F3
   - F4
   - F5
-  - {t: ▽, type: trans}
+  - {t: L1, h: toggle, type: trans}
 # right num row
 # -------------
-  - {t: ▽, type: trans}
+  - {t: PSCR, type: trans}
   - F6
   - F7
   - F8
@@ -239,17 +239,17 @@ layers:
   - F11
 # left top row
 # ------------
-  - {t: ▽, type: trans}
+  - {t: TAB, type: trans}
   - Alt+Ctl+DELETE
-  - {t: ▽, type: trans}
+  - {t: ',', type: trans}
   - Sft+Ctl+TAB
   - Ctl+TAB
   - DELETE
-  - {t: ▽, type: trans}
+  - {t: DELETE, type: trans}
 # right top row
 # -------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: CAPS, type: trans}
+  - {t: F, type: trans}
   - HOME
   - PGDN
   - PAGE UP
@@ -257,75 +257,75 @@ layers:
   - F12
 # left home row
 # -------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '=', type: trans}
+  - {t: A, type: trans}
   - LEFT ALT
   - Sft+TAB
   - TAB
   - CAPS
 # right home row
 # --------------
-  - {t: ▽, type: trans}
+  - {t: D, type: trans}
   - LEFT
   - DOWN
   - UP
   - RIGHT
-  - {t: ▽, type: trans}
+  - {t: '-', type: trans}
 # left bottom row
 # ---------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: LEFT SHIFT, type: trans}
+  - {t: ';', type: trans}
+  - {t: Q, type: trans}
+  - {t: J, type: trans}
   - {t: INSERT, h: MOD_LCTL}
   - CW TOGG
-  - {t: ▽, type: trans}
+  - {t: ']', h: L3, type: trans}
 # right bottom row
 # ----------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '[', h: L3, type: trans}
+  - {t: B, type: trans}
+  - {t: M, type: trans}
+  - {t: W, type: trans}
+  - {t: V, type: trans}
+  - {t: Z, type: trans}
+  - {t: RIGHT SHIFT, type: trans}
 # left mod row
 # ------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: LEFT CTRL, type: trans}
+  - {t: LEFT GUI, type: trans}
+  - {t: LEFT ALT, type: trans}
+  - {t: INSERT, type: trans}
+  - {t: L3, type: trans}
 # right mod row
 # -------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: L3, type: trans}
+  - {t: INSERT, type: trans}
+  - {t: RIGHT ALT, type: trans}
+  - {t: RIGHT GUI, type: trans}
+  - {t: RIGHT CTRL, type: trans}
 # left thumb cluster top row
 # --------------------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: LEFT SHIFT, type: trans}
+  - {t: LEFT CTRL, type: trans}
 # right thumb cluster top row
 # ---------------------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: RIGHT CTRL, type: trans}
+  - {t: LEFT SHIFT, type: trans}
 # left thumb cluster middle-outer key
 # -----------------------------------
-  - {t: ▽, type: trans}
+  - {t: LEFT CTRL, type: trans}
 # right thumb cluster middle-outer key
 # ------------------------------------
-  - {t: ▽, type: trans}
+  - {t: RIGHT SHIFT, type: trans}
 # left thumb cluster bottom row
 # -----------------------------
   - L3
   - {type: held}
-  - {t: ▽, type: trans}
+  - {t: LEFT GUI, type: trans}
 # right thumb cluster bottom row
 # ------------------------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: RIGHT GUI, type: trans}
+  - {t: ENTER, type: trans}
   - L4
   3-numsym:
 # left num row
