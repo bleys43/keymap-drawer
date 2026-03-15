@@ -1,6 +1,8 @@
 layout: {qmk_keyboard: ergodox_ez/base, layout_name: LAYOUT_ergodox_pretty}
 layers:
   0-dvorak:
+# left num row
+# ------------
   - '`'
   - '1'
   - '2'
@@ -8,6 +10,8 @@ layers:
   - '4'
   - '5'
   - {t: L1, h: toggle}
+# right num row
+# -------------
   - PSCR
   - '6'
   - '7'
@@ -15,6 +19,8 @@ layers:
   - '9'
   - '0'
   - \
+# left top row
+# ------------
   - TAB
   - ''''
   - ','
@@ -22,6 +28,8 @@ layers:
   - P
   - Y
   - DELETE
+# right top row
+# -------------
   - CAPS
   - F
   - G
@@ -30,17 +38,23 @@ layers:
   - L
   - /
   - '='
+# left home row
+# -------------
   - A
   - O
   - E
   - U
   - I
+# right home row
+# --------------
   - D
   - H
   - T
   - N
   - S
   - '-'
+# left bottom row
+# ---------------
   - LEFT SHIFT
   - {t: ;, h: MOD_LALT}
   - {t: Q, h: MOD_LGUI}
@@ -48,6 +62,8 @@ layers:
   - {t: K, h: MOD_LCTL}
   - X
   - {t: ']', h: L3}
+# right bottom row
+# ----------------
   - {t: '[', h: L3}
   - B
   - {t: M, h: MOD_RCTL}
@@ -55,29 +71,47 @@ layers:
   - {t: V, h: MOD_RGUI}
   - {t: Z, h: MOD_RALT}
   - LEFT SHIFT
+# left mod row
+# ------------
   - LEFT CTRL
   - LEFT GUI
   - LEFT ALT
   - INSERT
   - L3
+# right mod row
+# -------------
   - L3
   - INSERT
   - LEFT ALT
   - RIGHT GUI
   - LEFT CTRL
+# left thumb cluster top row
+# --------------------------
   - LEFT SHIFT
   - LEFT CTRL
+# right thumb cluster top row
+# ---------------------------
   - LEFT CTRL
   - LEFT SHIFT
+# left thumb cluster middle-outer key
+# -----------------------------------
   - LEFT CTRL
+# right thumb cluster middle-outer key
+# ------------------------------------
   - LEFT SHIFT
+# left thumb cluster bottom row
+# -----------------------------
   - BSPC
   - {t: ESCAPE, h: L2}
   - LEFT GUI
+# right thumb cluster bottom row
+# ------------------------------
   - RIGHT GUI
   - ENTER
   - SPACE
   1-qwerty:
+# left num row
+# ------------
   - '`'
   - {t: '1', type: trans}
   - {t: '2', type: trans}
@@ -85,6 +119,8 @@ layers:
   - {t: '4', type: trans}
   - {t: '5', type: trans}
   - {t: L1, h: toggle}
+# right num row
+# -------------
   - {t: PSCR, type: trans}
   - {t: '6', type: trans}
   - {t: '7', type: trans}
@@ -92,6 +128,8 @@ layers:
   - {t: '9', type: trans}
   - {t: '0', type: trans}
   - {t: \, type: trans}
+# left top row
+# ------------
   - {t:  TAB, type: trans}
   - Q
   - W
@@ -99,6 +137,8 @@ layers:
   - R
   - T
   - {t: DELETE, type: trans}
+# right top row
+# -------------
   - {t: CAPS, type: trans}
   - Y
   - U
@@ -106,18 +146,24 @@ layers:
   - O
   - P
   - '-'
+# left home row
+# -------------
   - {t: '=', type: trans}
   - A
   - S
   - D
   - F
   - G
+# right home row
+# --------------
   - H
   - J
   - K
   - L
   - ;
   - ''''
+# left bottom row
+# ---------------
   - {h: LEFT SHIFT, type: trans}
   - {t: Z, h: MOD_LALT}
   - {t: X, h: MOD_LGUI}
@@ -125,6 +171,8 @@ layers:
   - {t: V, h: MOD_LCTL}
   - B
   - {t: ']', h: L3, type: trans}
+# right bottom row
+# ----------------
   - {t: '[', h: L3, type: trans}
   - N
   - {t: M, h: MOD_RCTL}
@@ -132,29 +180,47 @@ layers:
   - {t: ., h: MOD_RGUI}
   - {t: /, h: MOD_RALT}
   - {t: LEFT SHIFT, type: trans}
+# left mod row
+# ------------
   - {t: LEFT CTRL, type: trans}
   - {t: LEFT GUI, type: trans}
   - {t: LEFT ALT, type: trans}
   - {t: INSERT, type: trans}
   - {t: L3, type: trans}
+# right mod row
+# ------------
   - {t: L3, type: trans}
   - {t: INSERT, type: trans}
   - {t: LEFT ALT, type: trans}
   - {t: RIGHT GUI, type: trans}
   - {t: LEFT CTRL, type: trans}
+# left thumb cluster top row
+# --------------------------
   - {t: LEFT SHIFT, type: trans}
   - {t: LEFT CTRL, type: trans}
+# right thumb cluster top row
+# ---------------------------
   - {t: LEFT CTRL, type: trans}
   - {t: LEFT SHIFT, type: trans}
+# left thumb cluster middle-outer key
+# -----------------------------------
   - {t: LEFT CTRL, type: trans}
+# right thumb cluster middle-outer key
+# ------------------------------------
   - {t: LEFT SHIFT, type: trans}
+# left thumb cluster bottom row
+# -----------------------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# right thumb cluster bottom row
+# ------------------------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   2-nav:
+# left num row
+# ------------
   - {t: ▽, type: trans}
   - F1
   - F2
@@ -162,6 +228,8 @@ layers:
   - F4
   - F5
   - {t: ▽, type: trans}
+# right num row
+# -------------
   - {t: ▽, type: trans}
   - F6
   - F7
@@ -169,6 +237,8 @@ layers:
   - F9
   - F10
   - F11
+# left top row
+# ------------
   - {t: ▽, type: trans}
   - Alt+Ctl+DELETE
   - {t: ▽, type: trans}
@@ -176,6 +246,8 @@ layers:
   - Ctl+TAB
   - DELETE
   - {t: ▽, type: trans}
+# right top row
+# -------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
@@ -183,18 +255,24 @@ layers:
   - PAGE UP
   - END
   - F12
+# left home row
+# -------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ALT
   - Sft+TAB
   - TAB
   - CAPS
+# right home row
+# --------------
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - UP
   - RIGHT
   - {t: ▽, type: trans}
+# left bottom row
+# ---------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -202,6 +280,8 @@ layers:
   - {t: INSERT, h: MOD_LCTL}
   - CW TOGG
   - {t: ▽, type: trans}
+# right bottom row
+# ----------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -209,29 +289,47 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# left mod row
+# ------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# right mod row
+# -------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# left thumb cluster top row
+# --------------------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# right thumb cluster top row
+# ---------------------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# left thumb cluster middle-outer key
+# -----------------------------------
   - {t: ▽, type: trans}
+# right thumb cluster middle-outer key
+# ------------------------------------
   - {t: ▽, type: trans}
+# left thumb cluster bottom row
+# -----------------------------
   - L3
   - {type: held}
   - {t: ▽, type: trans}
+# right thumb cluster bottom row
+# ------------------------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - L4
   3-numsym:
+# left num row
+# ------------
   - {t: ▽, type: trans}
   - F1
   - F2
@@ -239,6 +337,8 @@ layers:
   - F4
   - F5
   - {t: ▽, type: trans}
+# right num row
+# -------------
   - {t: ▽, type: trans}
   - F6
   - F7
@@ -246,6 +346,8 @@ layers:
   - F9
   - F10
   - F11
+# left top row
+# ------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -253,6 +355,8 @@ layers:
   - ']'
   - \
   - {t: ▽, type: trans}
+# right top row
+# -------------
   - {t: ▽, type: trans}
   - \
   - '7'
@@ -260,18 +364,24 @@ layers:
   - '9'
   - '='
   - F12
+# left home row
+# -------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - (
   - )
   - '`'
+# right home row
+# --------------
   - '/'
   - '4'
   - '5'
   - '6'
   - '-'
   - {t: ▽, type: trans}
+# left bottom row
+# ---------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -279,6 +389,8 @@ layers:
   - {t: ▽, type: trans}
   - '/'
   - {type: held}
+# right bottom row
+# ----------------
   - {t: ▽, type: trans}
   - '0'
   - {t: '1', h: MOD_RCTL}
@@ -286,29 +398,47 @@ layers:
   - {t: '3', h: MOD_RGUI}
   - {t: '.', h: MOD_RALT}
   - {t: ▽, type: trans}
+# left mod row
+# ------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# right mod row
+# ------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# left thumb cluster top row
+# --------------------------
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+# right thumb cluster top row
+# ---------------------------
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+# left thumb cluster middle-outer key
+# -----------------------------------
+  - {t: ▽, type: trans}
+# right thumb cluster middle-outer key
+# ------------------------------------
+  - {t: ▽, type: trans}
+# left thumb cluster bottom row
+# -----------------------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+# right thumb cluster bottom row
+# ------------------------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   4-func:
+# left num row
+# ------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -316,6 +446,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# right num row
+# -------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -323,6 +455,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# left top row
+# ------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F7
@@ -330,6 +464,8 @@ layers:
   - F9
   - F12
   - {t: ▽, type: trans}
+# right top row
+# -------------
   - {t: ▽, type: trans}
   - BRIGHTNESS UP
   - MEDIA REWIND
@@ -337,18 +473,24 @@ layers:
   - MEDIA FAST FORWARD
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# left home row
+# -------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F4
   - F5
   - F6
   - F11
+# right home row
+# --------------
   - BRIGHTNESS DOWN
   - AUDIO MUTE
   - AUDIO VOL DOWN
   - AUDIO VOL UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# left bottom row
+# ---------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F1
@@ -356,6 +498,8 @@ layers:
   - F3
   - F10
   - {t: ▽, type: trans}
+# right bottom row
+# ----------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -363,25 +507,41 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# left mod row
+# ------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# right mod row
+# -------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# left thumb cluster top row
+# --------------------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# right thumb cluster top row
+# ---------------------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+# left thumb cluster middle-outer key
+# -----------------------------------
   - {t: ▽, type: trans}
+# right thumb cluster middle-outer key
+# ------------------------------------
   - {t: ▽, type: trans}
+# left thumb cluster bottom row
+# -----------------------------
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+# right thumb cluster bottom row
+# ------------------------------
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
