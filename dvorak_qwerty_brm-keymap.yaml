@@ -274,9 +274,9 @@ layers:
 # left bottom row
 # ---------------
   - {t: LEFT SHIFT, type: trans}
-  - {t: ';', type: trans}
-  - {t: Q, type: trans}
-  - {t: J, type: trans}
+  - {t: ';', h: MOD_LALT, type: trans}
+  - {t: Q, h: MOD_LGUI, type: trans}
+  - {t: J, h: MOD_LSFT, type: trans}
   - {t: INSERT, h: MOD_LCTL}
   - CW TOGG
   - {t: ']', h: L3, type: trans}
@@ -284,10 +284,10 @@ layers:
 # ----------------
   - {t: '[', h: L3, type: trans}
   - {t: B, type: trans}
-  - {t: M, type: trans}
-  - {t: W, type: trans}
-  - {t: V, type: trans}
-  - {t: Z, type: trans}
+  - {t: M, h: MOD_RCTL, type: trans}
+  - {t: W, h: MOD_RSFT, type: trans}
+  - {t: V, h: MOD_RGUI, type: trans}
+  - {t: Z, h: MOD_RALT, type: trans}
   - {t: RIGHT SHIFT, type: trans}
 # left mod row
 # ------------
@@ -330,16 +330,16 @@ layers:
   3-numsym:
 # left num row
 # ------------
-  - {t: ▽, type: trans}
+  - {t: '`', type: trans}
   - F1
   - F2
   - F3
   - F4
   - F5
-  - {t: ▽, type: trans}
+  - {t: L1, h: toggle, type: trans}
 # right num row
 # -------------
-  - {t: ▽, type: trans}
+  - {t: PSCR, type: trans}
   - F6
   - F7
   - F8
@@ -348,16 +348,16 @@ layers:
   - F11
 # left top row
 # ------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: TAB, type: trans}
+  - {t: '''', type: trans}
+  - {t: '.', type: trans}
   - '['
   - ']'
-  - \
-  - {t: ▽, type: trans}
+  - 'DELETE'
+  - {t: DELETE, type: trans}
 # right top row
 # -------------
-  - {t: ▽, type: trans}
+  - {t: CAPS, type: trans}
   - \
   - '7'
   - '8'
@@ -366,12 +366,12 @@ layers:
   - F12
 # left home row
 # -------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '=', type: trans}
+  - {t: 'A', type: trans}
+  - {t: 'O', type: trans}
   - (
   - )
-  - '`'
+  - 'CAPS'
 # right home row
 # --------------
   - '/'
@@ -379,63 +379,63 @@ layers:
   - '5'
   - '6'
   - '-'
-  - {t: ▽, type: trans}
+  - {t: '-', type: trans}
 # left bottom row
 # ---------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '/'
+  - {t: LEFT SHIFT, type: trans}
+  - {t: ';', h: MOD_LALT, type: trans}
+  - {t: '`', h: MOD_LGUI}
+  - {t: '\', h: MOD_LSFT}
+  - {t: '/', h: MOD_LCTL}
+  - 'CW TOGG'
   - {type: held}
 # right bottom row
 # ----------------
-  - {t: ▽, type: trans}
+  - {t: '[', type: trans}
   - '0'
   - {t: '1', h: MOD_RCTL}
   - {t: '2', h: MOD_RSFT}
   - {t: '3', h: MOD_RGUI}
   - {t: '.', h: MOD_RALT}
-  - {t: ▽, type: trans}
+  - {t: RIGHT SHIFT, type: trans}
 # left mod row
 # ------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: LEFT CTRL, type: trans}
+  - {t: LEFT GUI, type: trans}
+  - {t: LEFT ALT, type: trans}
+  - {t: INSERT, type: trans}
+  - {t: L3, type: trans}
 # right mod row
 # ------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: L3, type: trans}
+  - {t: INSERT, type: trans}
+  - {t: RIGHT ALT, type: trans}
+  - {t: RIGHT GUI, type: trans}
+  - {t: RIGHT CTRL, type: trans}
 # left thumb cluster top row
 # --------------------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: LEFT SHIFT, type: trans}
+  - {t: LEFT CTRL, type: trans}
 # right thumb cluster top row
 # ---------------------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: RIGHT CTRL, type: trans}
+  - {t: RIGHT SHIFT, type: trans}
 # left thumb cluster middle-outer key
 # -----------------------------------
-  - {t: ▽, type: trans}
+  - {t: LEFT SHIFT, type: trans}
 # right thumb cluster middle-outer key
 # ------------------------------------
-  - {t: ▽, type: trans}
+  - {t: RIGHT SHIFT, type: trans}
 # left thumb cluster bottom row
 # -----------------------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BSPC, type: trans}
+  - {t: ESCAPE, h: L2, type: trans}
+  - {t: LEFT GUI, type: trans}
 # right thumb cluster bottom row
 # ------------------------------
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: RIGHT GUI, type: trans}
+  - {t: ENTER, type: trans}
+  - {t: SPACE, type: trans}
   4-func:
 # left num row
 # ------------
