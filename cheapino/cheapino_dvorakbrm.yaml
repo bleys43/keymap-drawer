@@ -1,0 +1,169 @@
+layout: {qmk_keyboard: cheapino, layout_name: LAYOUT_split_3x5_3}
+layers:
+  L0:
+  - ['''', ',', ., P, Y, F, G, C, R, L]
+  - [A, O, E, U, I, D, H, T, N, S]
+  - - {t: ;, h: LALT}
+    - {t: Q, h: LGUI}
+    - {t: J, h: LSFT}
+    - {t: K, h: LCTL}
+    - X
+    - B
+    - {t: M, h: RCTL}
+    - {t: W, h: RSFT}
+    - {t: V, h: RGUI}
+    - {t: Z, h: RALT}
+  - - {t: L2, h: sticky}
+    - BSPC
+    - {t: ESC, h: L1}
+    - ENT
+    - SPC
+    - {t: L2, h: sticky}
+  L1:
+  - - Ctl+Alt+DEL
+    - {t: ▽, type: trans}
+    - LCS(TAB)
+    - Ctl+TAB
+    - DEL
+    - {t: ▽, type: trans}
+    - HOME
+    - PGDN
+    - PGUP
+    - END
+  - - {t: ▽, type: trans}
+    - LALT
+    - Sft+TAB
+    - TAB
+    - CAPS
+    - {t: ▽, type: trans}
+    - LEFT
+    - DOWN
+    - UP
+    - RGHT
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: INS, h: LCTL}
+    - CW TOGG
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  L2:
+  - - {t: ▽, type: trans}
+    - TMUX PASTE
+    - '['
+    - ']'
+    - {t: ▽, type: trans}
+    - \
+    - '7'
+    - '8'
+    - '9'
+    - '='
+  - - TMUX BMENU
+    - TMUX CMODE
+    - (
+    - )
+    - {t: ▽, type: trans}
+    - /
+    - '4'
+    - '5'
+    - '6'
+    - '-'
+  - - {t: ▽, type: trans}
+    - {t: '`', h: LGUI}
+    - {t: \, h: LSFT}
+    - {t: /, h: LCTL}
+    - {t: ▽, type: trans}
+    - '0'
+    - {t: '1', h: RCTL}
+    - {t: '2', h: RSFT}
+    - {t: '3', h: RGUI}
+    - {t: ., h: RALT}
+  - - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  L3:
+  - - {t: ▽, type: trans}
+    - F7
+    - F8
+    - F9
+    - F12
+    - BRIU
+    - MRWD
+    - MPLY
+    - MFFD
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - F4
+    - F5
+    - F6
+    - F11
+    - BRID
+    - MUTE
+    - VOLD
+    - VOLU
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - F1
+    - F2
+    - F3
+    - F10
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  L4:
+  - - QK BOOT
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - DEL
+    - {t: ▽, type: trans}
+    - MS WHLL
+    - MS WHLD
+    - MS WHLU
+    - MS WHLR
+  - - QK RBT
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - MS LEFT
+    - MS DOWN
+    - MS UP
+    - MS RGHT
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - MS BTN1
+    - MS BTN2
+    - {t: ▽, type: trans}
