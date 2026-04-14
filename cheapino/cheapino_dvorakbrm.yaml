@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: cheapino, layout_name: LAYOUT_split_3x5_3}
+layout: {qmk_keyboard: obosob/arch_36, layout_name: LAYOUT_split_3x5_3}
 layers:
   L0:
   - ['''', ',', ., P, Y, F, G, C, R, L]
@@ -35,7 +35,7 @@ layers:
     - Sft+TAB
     - TAB
     - CAPS
-    - {t: ▽, type: trans}
+    - TMUX VSPLIT
     - LEFT
     - DOWN
     - UP
@@ -45,11 +45,11 @@ layers:
     - {t: ▽, type: trans}
     - {t: INS, h: LCTL}
     - CW TOGG
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - TMUX HSPLIT
+    - TMUX PANE L
+    - TMUX PANE D
+    - TMUX PANE U
+    - TMUX PANE R
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
@@ -57,7 +57,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   L2:
-  - - {t: ▽, type: trans}
+  - - TMUX MENU
     - TMUX PASTE
     - '['
     - ']'
@@ -67,7 +67,7 @@ layers:
     - '8'
     - '9'
     - '='
-  - - TMUX BMENU
+  - - TMUX MENU
     - TMUX CMODE
     - (
     - )
