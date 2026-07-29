@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: obosob/arch_36, layout_name: LAYOUT_split_3x5_3}
+layout: {qmk_keyboard: cheapino, layout_name: LAYOUT_split_3x5_3}
 layers:
   L0:
   - ['''', ',', ., P, Y, F, G, C, R, L]
@@ -13,19 +13,19 @@ layers:
     - {t: W, h: RSFT}
     - {t: V, h: RGUI}
     - {t: Z, h: RALT}
-  - - {t: L2, h: sticky}
+  - - OS LSFT
     - BSPC
     - {t: ESC, h: L1}
     - ENT
     - SPC
-    - {t: L2, h: sticky}
+    - RL NUMSYM
   L1:
   - - Ctl+Alt+DEL
     - {t: ▽, type: trans}
     - LCS(TAB)
     - Ctl+TAB
     - DEL
-    - {t: ▽, type: trans}
+    - PSCR
     - HOME
     - PGDN
     - PGUP
@@ -87,7 +87,7 @@ layers:
     - {t: '2', h: RSFT}
     - {t: '3', h: RGUI}
     - {t: ., h: RALT}
-  - - {type: held}
+  - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
